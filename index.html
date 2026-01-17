@@ -199,7 +199,7 @@
 
       <!-- Contact Us area start -->
       <section>
-        <div class="mx-auto w-7xl pb-20">
+        <div class="mx-auto w-[1170px] pb-20">
           <!-- Section Heading -->
           <div>
             <h2
@@ -300,18 +300,42 @@
 
             <!-- contact-content-form-start -->
             <div>
-              <form>
+              <form class="space-y-8">
                 <div>
-                  <input type="text" placeholder="Your Name" />
+                  <input
+                    class="w-xl text-base font-poppins text-red leading-6 p-6 rounded-lg outline-0 bg-red-50"
+                    type="text"
+                    placeholder="Your Name"
+                  />
+                </div>
+
+                <div>
+                  <input
+                    class="w-xl text-base font-poppins text-red leading-6 p-6 rounded-lg outline-0 bg-red-50"
+                    type="email"
+                    placeholder="Your Email"
+                  />
                 </div>
                 <div>
-                  <input type="email" placeholder="Your Email" />
+                  <input
+                    class="w-xl text-base font-poppins text-red leading-6 p-6 rounded-lg outline-0 bg-red-50"
+                    type="text"
+                    placeholder="Subject"
+                  />
                 </div>
                 <div>
-                  <input type="text" placeholder="Subject" />
+                  <textarea
+                    rows="4"
+                    cols="64"
+                    class="resize-none text-base font-poppins text-red leading-6 outline-0 p-6 rounded-lg bg-red-50"
+                    placeholder="Your Message"
+                  ></textarea>
                 </div>
-                <textarea>Your Message</textarea>
-                <input type="submit" value="Send Message" />
+                <input
+                  class="w-xl text-xl font-poppins text-white font-semibold p-6 rounded-lg outline-0 bg-yellow-700"
+                  type="submit"
+                  value="Send Message"
+                />
               </form>
             </div>
             <!-- contact-content-form-end -->
